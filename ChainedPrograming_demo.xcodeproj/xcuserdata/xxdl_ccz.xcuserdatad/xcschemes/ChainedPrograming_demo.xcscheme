@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C1D1D2F41E45D1AB001C713D"
+               BuildableName = "ChainedPrograming_demo.app"
+               BlueprintName = "ChainedPrograming_demo"
+               ReferencedContainer = "container:ChainedPrograming_demo.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C1D1D30D1E45D1AC001C713D"
+               BuildableName = "ChainedPrograming_demoTests.xctest"
+               BlueprintName = "ChainedPrograming_demoTests"
+               ReferencedContainer = "container:ChainedPrograming_demo.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C1D1D3181E45D1AC001C713D"
+               BuildableName = "ChainedPrograming_demoUITests.xctest"
+               BlueprintName = "ChainedPrograming_demoUITests"
+               ReferencedContainer = "container:ChainedPrograming_demo.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C1D1D2F41E45D1AB001C713D"
+            BuildableName = "ChainedPrograming_demo.app"
+            BlueprintName = "ChainedPrograming_demo"
+            ReferencedContainer = "container:ChainedPrograming_demo.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C1D1D2F41E45D1AB001C713D"
+            BuildableName = "ChainedPrograming_demo.app"
+            BlueprintName = "ChainedPrograming_demo"
+            ReferencedContainer = "container:ChainedPrograming_demo.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C1D1D2F41E45D1AB001C713D"
+            BuildableName = "ChainedPrograming_demo.app"
+            BlueprintName = "ChainedPrograming_demo"
+            ReferencedContainer = "container:ChainedPrograming_demo.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

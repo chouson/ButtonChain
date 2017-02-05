@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C149B3311E46C140008D1C03 /* ButtonChain.m in Sources */ = {isa = PBXBuildFile; fileRef = C149B3301E46C140008D1C03 /* ButtonChain.m */; };
 		C1D1D2FA1E45D1AB001C713D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D1D2F91E45D1AB001C713D /* main.m */; };
 		C1D1D2FD1E45D1AB001C713D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D1D2FC1E45D1AB001C713D /* AppDelegate.m */; };
 		C1D1D3001E45D1AB001C713D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D1D2FF1E45D1AB001C713D /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C149B32F1E46C140008D1C03 /* ButtonChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonChain.h; sourceTree = "<group>"; };
+		C149B3301E46C140008D1C03 /* ButtonChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonChain.m; sourceTree = "<group>"; };
 		C1D1D2F51E45D1AB001C713D /* ChainedPrograming_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChainedPrograming_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1D1D2F91E45D1AB001C713D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C1D1D2FB1E45D1AB001C713D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 				C1D1D2FC1E45D1AB001C713D /* AppDelegate.m */,
 				C1D1D2FE1E45D1AB001C713D /* ViewController.h */,
 				C1D1D2FF1E45D1AB001C713D /* ViewController.m */,
+				C149B32F1E46C140008D1C03 /* ButtonChain.h */,
+				C149B3301E46C140008D1C03 /* ButtonChain.m */,
 				C1D1D3011E45D1AB001C713D /* Main.storyboard */,
 				C1D1D3041E45D1AB001C713D /* Assets.xcassets */,
 				C1D1D3061E45D1AB001C713D /* LaunchScreen.storyboard */,
@@ -279,6 +284,7 @@
 				C1D1D3001E45D1AB001C713D /* ViewController.m in Sources */,
 				C1D1D2FD1E45D1AB001C713D /* AppDelegate.m in Sources */,
 				C1D1D2FA1E45D1AB001C713D /* main.m in Sources */,
+				C149B3311E46C140008D1C03 /* ButtonChain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,7 +379,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -414,7 +420,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -427,6 +433,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MXL887HTMJ;
 				INFOPLIST_FILE = ChainedPrograming_demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ccz.ChainedPrograming-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -439,6 +446,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MXL887HTMJ;
 				INFOPLIST_FILE = ChainedPrograming_demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ccz.ChainedPrograming-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -514,6 +522,7 @@
 				C1D1D3241E45D1AD001C713D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C1D1D3251E45D1AD001C713D /* Build configuration list for PBXNativeTarget "ChainedPrograming_demoTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +531,7 @@
 				C1D1D3271E45D1AD001C713D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C1D1D3281E45D1AD001C713D /* Build configuration list for PBXNativeTarget "ChainedPrograming_demoUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +540,7 @@
 				C1D1D32A1E45D1AD001C713D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

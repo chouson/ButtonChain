@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "ButtonChain.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,26 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    CGFloat width = [UIScreen mainScreen].bounds.size.width;
+    CGFloat height = [UIScreen mainScreen].bounds.size.height;
+    
+    UIButton * btnChain = [ButtonChain initialization]().rect(CGRectMake((width-100)/2, height/2, 100, 40))
+                                                        .normalTitle(@"normal")
+                                                        .bgColor([UIColor blackColor])
+                                                        .action(self, @selector(changeSelected:));
+
+    [self.view addSubview:btnChain];
+}
+
+-(void)changeSelected:(ButtonChain *)sender {
+    sender.selected = !sender.selected;
+    if (!sender.selected) {
+        sender.normalTitle(@"normal").bgColor([UIColor blackColor]);
+    }
+    else {
+        sender.selectTitle(@"selected").bgColor([UIColor purpleColor]);
+    }
 }
 
 
