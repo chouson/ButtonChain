@@ -21,7 +21,7 @@
     CGFloat width = [UIScreen mainScreen].bounds.size.width;
     CGFloat height = [UIScreen mainScreen].bounds.size.height;
     
-    UIButton * btnChain = [ButtonChain initialization]().rect(CGRectMake((width-100)/2, height/2, 100, 40))
+    ButtonChain * btnChain = [ButtonChain initialization]().rect(CGRectMake((width-100)/2, height/2, 100, 40))
                                                         .normalTitle(@"normal")
                                                         .bgColor([UIColor blackColor])
                                                         .action(self, @selector(changeSelected:));
